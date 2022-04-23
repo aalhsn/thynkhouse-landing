@@ -357,7 +357,17 @@ h6,
 }
 @media (max-width: 991px) {
 	#hero {
-		height: calc(100vh - 72px);
+		height: calc(100vh - 200px);
+	}
+	#done {
+		height: calc(100vh - 200px);
+		text-align: center;
+	}
+	h3, h1, h2, h4, h5, p {
+		text-align: center;
+	}
+	#hero a {
+		text-align: center;
 	}
 	#hero .animated {
 		-webkit-animation: none;
@@ -378,6 +388,26 @@ h6,
 	#hero h2 {
 		font-size: 18px;
 		line-height: 24px;
+	}
+
+	#done h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	#done h2 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.section-title p {
+		font-size: 15px;
+		line-height: 30px;
+	}
+
+	h3 {
+		font-size: 15px;
+		line-height: 35px;
+		margin-bottom: 30px;
 	}
 	#hero .hero-img img {
 		width: 70%;
