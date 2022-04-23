@@ -18,6 +18,10 @@ a {
 	text-decoration: none;
 }
 
+#done {
+	margin-top: 100px;
+}
+
 a:hover {
 	color: #ec58b1;
 	text-decoration: none;
