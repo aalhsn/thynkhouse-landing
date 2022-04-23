@@ -368,10 +368,15 @@ h6,
 		text-align: center;
 	}
 	h3, h1, h2, h4, h5, p {
-		text-align: center;
+		text-align: center !important;
 	}
-	#hero a {
-		text-align: center;
+	a {
+		text-align: center !important;
+		align-self: center;
+	}
+	.mobile-content{
+		text-align: center !important;
+
 	}
 	#hero .animated {
 		-webkit-animation: none;
@@ -415,6 +420,17 @@ h6,
 	}
 	#hero .hero-img img {
 		width: 70%;
+	}
+	h3, h1, h2, h4, h5, p {
+		text-align: center !important;
+	}
+	a {
+		text-align: center !important;
+		align-self: center;
+	}
+	.mobile-content{
+		text-align: center !important;
+
 	}
 }
 @media (max-width: 575px) {
