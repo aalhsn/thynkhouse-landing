@@ -240,6 +240,9 @@ h6,
 	.mobile-nav-toggle {
 		display: block;
 	}
+	.mobile-hero {
+		text-align: center;
+	}
 
 	.navbar ul {
 		display: none;
@@ -339,7 +342,8 @@ h6,
 	margin: 15px 0 0 0;
 	font-size: 24px;
 }
-#hero .btn-get-started {
+
+.btn-get-started {
 	font-family: "Lato", sans-serif;
 	font-weight: 700;
 	font-size: 16px;
@@ -351,6 +355,24 @@ h6,
 	margin-top: 30px;
 	color: #ffffff;
 	background: #2dc875;
+}
+.btn-get-started:hover {
+	background: #366ed0;
+	color: #ffffff;
+}
+
+#hero .btn-get-started {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 28px;
+	border-radius: 5px;
+	transition: 0.5s;
+	margin-top: 30px;
+	color: #ffffff;
+	background: #ec58b1;
 }
 #hero .btn-get-started:hover {
 	background: #366ed0;
